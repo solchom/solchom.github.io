@@ -1,64 +1,180 @@
-:root {
-    --green: #00ff00;
-    --white: #ffffff;
-    --black: #000000;
-    --magenta: #ff00ff;
+.title{
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    font-size: xx-large;
 }
 
-body {
-    background: var(--bg);
-    color: var(--fontColor);
-    font-family: helvetica;
+.container{
+    text-align: center;
+    margin-top: 100px;
 }
 
-ul {
-    font-family: helvetica;
+.greenteabingsu{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.26);
 }
 
-li {
-    list-style: circle;
-}
-
-.list {
-    list-style: square;
-}
-
-#msg {
-    font-family: monospace;
-}
-
-.light-theme {
-    --bg: var(--white);
-    --fontColor: var(--black);
-}
-
-.dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--white);
-}
-
-.btn {
+.greenteapicture{
     position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1));
+    z-index: 1;
 }
 
-.light-theme {
-    --bg: var(--white);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+.greenteaexplanation{
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    z-index: 3;
+    text-align: left;
 }
 
-.dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--white);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+.greenteaexplanation h1{
+    color: #000;
+}
+
+.greenteaexplanation p{
+    color: #fff;
+}
+
+.bingsu-btn{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    background: none;
+    z-index: 2;
+}
+
+.bingsu-btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+.ugly{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.26);
+}
+
+.uglypicture{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1));
+    z-index: 1;
+}
+
+.uglyexplanation{
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    z-index: 3;
+    text-align: left;
+}
+
+.uglyexplanation h1{
+    color: #000;
+}
+
+.uglyexplanation p{
+    color: #fff;
+}
+
+.ugly-btn{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    background: none;
+    z-index: 2;
+}
+
+.ugly-btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+.genshin{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.26);
+}
+
+.genshinpicture{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1));
+    z-index: 1;
+}
+
+.genshinexplanation{
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    z-index: 3;
+    text-align: left;
+}
+
+.genshinexplanation h1{
+    color: #000;
+}
+
+.genshinexplanation p{
+    color: #fff;
+}
+
+.genshin-btn{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    background: none;
+    z-index: 2;
+}
+
+.genshin-btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.bing-font{
+    font-family: 'Binggrae-Bold', sans-serif;
+    color: magenta;
+    font-size: 60px;
 }
