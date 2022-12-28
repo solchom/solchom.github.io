@@ -178,3 +178,9 @@
     color: magenta;
     font-size: 60px;
 }
+
+.uglysubtitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8c0000;
+    font-size: 30px;
+}
